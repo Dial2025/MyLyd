@@ -12,4 +12,8 @@
     <string name="menu_slideshow">Slideshow</string>
     <string name="bienvenue_sur_mon_application_mobile">Bienvenue sur mon application mobile</string>
     <string name="image1">Image1</string>
+    <string name="charger_vos_documents_ici_partir_de_la_galerie">Charger vos documents ici à partir de la galerie</string>
+    <string name="charger_une_image">Charger une image</string>
+    <string name="Charger_un_document" />
+    <string name="Consulter_mes_documents" />
 </resources>

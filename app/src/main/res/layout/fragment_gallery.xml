@@ -11,24 +11,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginBottom="808dp"
-        android:text="Charger vos documents ici à partir de la gallerie"
+        android:layout_marginBottom="664dp"
+        android:text="@string/charger_vos_documents_ici_partir_de_la_galerie"
         android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="match_parent" />
+        app:layout_constraintVertical_bias="0.146" />
 
     <Button
         android:id="@+id/savegallery"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Charger une image"
+        android:text="@string/charger_une_image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="439dp" />
+        tools:layout_editor_absoluteY="413dp" />
 
     <ImageView
         android:id="@+id/imageview"
@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toEndOf="@id/imageview"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="350dp" />
+        tools:layout_editor_absoluteY="356dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
